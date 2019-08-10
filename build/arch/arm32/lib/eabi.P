@@ -1,0 +1,4 @@
+build/arch/arm32/lib/eabi.o: arch/arm32/lib/eabi.c \
+ arch/arm32/include/types.h
+arch/arm32/lib/eabi.c :
+ arch/arm32/include/types.h :

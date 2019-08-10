@@ -1,0 +1,1 @@
+MKBIN := $(TOOLSDIR)/mksunxi/mksunxi

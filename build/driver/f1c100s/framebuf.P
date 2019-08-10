@@ -1,0 +1,64 @@
+build/driver/f1c100s/framebuf.o: driver/f1c100s/framebuf.c \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdbool.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdlib.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/ieeefp.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/newlib.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/config.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/reent.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/lock.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/stdlib.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/alloca.h \
+ clib/include/dma.h clib/include/malloc.h include/core_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/string.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/cdefs.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/string.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/assert.h \
+ driver/f1c100s/include/clk-f1c100s-pll.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h \
+ driver/f1c100s/include/reset-f1c100s.h \
+ driver/f1c100s/include/gpio-f1c100s.h \
+ driver/f1c100s/include/pwm-f1c100s.h \
+ driver/f1c100s/include/framebuffer.h boot/f1c100s/include/f1c100s-gpio.h \
+ boot/f1c100s/include/reg-tcon.h arch/arm32/include/types.h \
+ boot/f1c100s/include/reg-defe.h boot/f1c100s/include/reg-debe.h \
+ boot/f1c100s/include/reg-ccu.h include/io.h
+driver/f1c100s/framebuf.c :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdbool.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdlib.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/ieeefp.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/newlib.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/config.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/reent.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/_ansi.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/lock.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/stdlib.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/alloca.h :
+ clib/include/dma.h clib/include/malloc.h include/core_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/string.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/cdefs.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/string.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/assert.h :
+ driver/f1c100s/include/clk-f1c100s-pll.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h :
+ driver/f1c100s/include/reset-f1c100s.h :
+ driver/f1c100s/include/gpio-f1c100s.h :
+ driver/f1c100s/include/pwm-f1c100s.h :
+ driver/f1c100s/include/framebuffer.h boot/f1c100s/include/f1c100s-gpio.h :
+ boot/f1c100s/include/reg-tcon.h arch/arm32/include/types.h :
+ boot/f1c100s/include/reg-defe.h boot/f1c100s/include/reg-debe.h :
+ boot/f1c100s/include/reg-ccu.h include/io.h :

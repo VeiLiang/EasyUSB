@@ -1,0 +1,14 @@
+build/driver/f1c100s/irq_misc.o: driver/f1c100s/irq_misc.c \
+ driver/f1c100s/include/irq_misc.h arch/arm32/include/arm32.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h \
+ include/io.h arch/arm32/include/types.h
+driver/f1c100s/irq_misc.c :
+ driver/f1c100s/include/irq_misc.h arch/arm32/include/arm32.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h :
+ include/io.h arch/arm32/include/types.h :

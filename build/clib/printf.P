@@ -1,0 +1,16 @@
+build/clib/printf.o: clib/printf.c \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h \
+ clib/include/printf.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdarg.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h
+clib/printf.c :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h :
+ clib/include/printf.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdarg.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h :

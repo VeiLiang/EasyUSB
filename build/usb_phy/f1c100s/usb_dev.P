@@ -1,0 +1,12 @@
+build/usb_phy/f1c100s/usb_dev.o: usb_phy/f1c100s/usb_dev.c include/usb.h \
+ clib/include/printf.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdarg.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h \
+ driver/f1c100s/include/irq_misc.h usb_phy/f1c100s/usb_phy.h \
+ usb_phy/f1c100s/usb_dev.h
+usb_phy/f1c100s/usb_dev.c include/usb.h :
+ clib/include/printf.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdarg.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stddef.h :
+ driver/f1c100s/include/irq_misc.h usb_phy/f1c100s/usb_phy.h :
+ usb_phy/f1c100s/usb_dev.h :

@@ -1,0 +1,12 @@
+build/boot/f1c100s/sys-clock.o: boot/f1c100s/sys-clock.c \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h \
+ boot/f1c100s/include/reg-ccu.h include/io.h arch/arm32/include/types.h
+boot/f1c100s/sys-clock.c :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h :
+ boot/f1c100s/include/reg-ccu.h include/io.h arch/arm32/include/types.h :

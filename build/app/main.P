@@ -1,0 +1,2 @@
+build/app/main.o: app/main.c
+app/main.c :

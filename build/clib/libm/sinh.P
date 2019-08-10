@@ -1,0 +1,14 @@
+build/clib/libm/sinh.o: clib/libm/sinh.c clib/include/math.h \
+ arch/arm32/include/types.h arch/arm32/include/float.h \
+ arch/arm32/include/endian.h arch/arm32/include/limits.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h \
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h
+clib/libm/sinh.c clib/include/math.h :
+ arch/arm32/include/types.h arch/arm32/include/float.h :
+ arch/arm32/include/endian.h arch/arm32/include/limits.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/lib/gcc/arm-eabi/5.3.1/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/stdint.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/machine/_default_types.h :
+ /opt/gcc-linaro-5.3.1-2016.05-x86_64_arm-eabi/arm-eabi/libc/usr/include/sys/features.h :

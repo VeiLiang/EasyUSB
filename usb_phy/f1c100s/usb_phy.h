@@ -2,7 +2,7 @@
  * usb_phy.h
  *
  *  Created on: 2018Äê10ÔÂ4ÈÕ
- *      Author: lucy
+ *      Author: VeiLiang
  */
 
 #ifndef DRIVER_INCLUDE_USB_PHY_H_

@@ -2,7 +2,7 @@
  * usb_dev.h
  *
  *  Created on: 2018Äê10ÔÂ5ÈÕ
- *      Author: lucy
+ *      Author: VeiLiang
  */
 
 #ifndef DRIVER_INCLUDE_USB_DEV_H_

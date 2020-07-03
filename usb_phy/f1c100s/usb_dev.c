@@ -457,8 +457,6 @@ void usb_irq_handle(int arg)
 		usb_irq = filtrate_irq_misc(usb_irq);
 		usbprint("_______________________________\n");
 		usbprint("\nirq: usb_irq=%02x, tx_irq=%02x, rx_irq=%02x, dma_irq:%x\n", usb_irq, tx_irq, rx_irq, dma_irq);
-		//usbprint(">usb addr:0x%02x\n",GH_USB_get_FAddr());
-		//usbprint(">>usb frame:%d\n",GH_USB_get_Frame());
 		//usbprint(">>>Time:%d\n",gkosGetTicks());
 		/*
 		 * Now, handle interrupts. There's two types :
@@ -651,13 +649,11 @@ static void sunxi_udc_enable()
 
 	usbprint("CONFIG_USB_GADGET_DUALSPEED: USBC_TS_MODE_HS\n");
 
-	USBC_Dev_ConfigTransferMode(USBC_TS_TYPE_BULK, USBC_TS_MODE_HS);
-
 	/* Enable reset and suspend interrupt interrupts */
-	USBC_INT_EnableUsbMiscUint( USBC_BP_INTUSB_SUSPEND);
-	USBC_INT_EnableUsbMiscUint( USBC_BP_INTUSB_RESUME);
-	USBC_INT_EnableUsbMiscUint( USBC_BP_INTUSB_RESET);
-	USBC_INT_EnableUsbMiscUint( USBC_BP_INTUSB_DISCONNECT);
+	USBC_INT_EnableUsbMiscUint( USBC_INTUSB_SUSPEND);
+	USBC_INT_EnableUsbMiscUint( USBC_INTUSB_RESUME);
+	USBC_INT_EnableUsbMiscUint( USBC_INTUSB_RESET);
+	USBC_INT_EnableUsbMiscUint( USBC_INTUSB_DISCONNECT);
 	//USBC_INT_EnableUsbMiscUint( USBC_INTUSB_SOF);
 	/* Enable ep0 interrupt */
 	USBC_INT_EnableEp( USBC_EP_TYPE_TX, 0);
@@ -681,7 +677,6 @@ int usb_device_init(unsigned char type)
 		}
 		//usbhid_usb_phy_init(41);
 		sunxi_udc_disable();
-	//	GD_USB_Intr_Set_CallBack(usb_irq_handle);
 		retval = request_irq(IRQ_USBOTG, usb_irq_handle,0);
 		if (retval != 0)
 		{

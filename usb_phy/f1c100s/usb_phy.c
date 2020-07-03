@@ -1,3 +1,9 @@
+/*
+ * usb_phy.c
+ *
+ *  Created on: 2018Äê10ÔÂ4ÈÕ
+ *      Author: VeiLiang
+ */
 #include "usb.h"
 #include "usb_phy.h"
 /* vbus, id, dpdm, these bit is set 1 to clear, so we clear these bit when operate other bits */

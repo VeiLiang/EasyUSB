@@ -1,7 +1,0 @@
-SRC_C += $(CLIBDIR)/dma.c
-SRC_C += $(CLIBDIR)/malloc.c
-SRC_C += $(CLIBDIR)/printf.c
-
-
-INCDIRS		+= $(CLIBDIR)/include
-
